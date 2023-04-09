@@ -1,0 +1,36 @@
+/* Cria o estilo para o Header de todas as páginas */
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  height: 1fr;
+  padding: 20px 20px 20px 0px;
+  background: #a7aaff;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.header-menu a {
+  display: inline-block;
+  padding: 16px 10px;
+  position: relative;
+  background: #898cf5;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.header-menu a:hover {
+  background: #757af5;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Vendas</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="logo.svg">
+
+</head>
+
+<body>
+  <!-- Implementa o cabeçalho do site -->
+  <header class="header">
+    <div>
+      <img src="logo.svg" class="logo">
+    </div>
+
+    <nav>
+      <ul class="header-menu">
+        <li><a href="index.html">Página Inicial</a></li>
+        <li><a href="form.html">Registro de Vendas</a></li>
+        <li><a href="estoque.html">Estoque</a></li>
+        <li><a href="vendas.html">Vendas</a></li>
+
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Implementa o conteúdo principal do site -->
+  <main>
+    <h1>Registro de Vendas</h1>
+    <form>
+      <label for="produto">Produto:</label>
+      <input type="text" id="produto" name="produto" required>
+      <label for="quantidade">Quantidade:</label>
+      <input type="number" id="quantidade" name="quantidade" required>
+      <label for="preco">Preço Unitário:</label>
+      <input type="text" id="preco" name="preco" required>
+      <button type="submit">Registrar Venda</button>
+    </form>
+  </main>
+
+  <!-- Implementa o rodapé do site -->
+  <footer class="footer">
+    <p class="footer-copy">Todos os direitos reservados.</p>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>

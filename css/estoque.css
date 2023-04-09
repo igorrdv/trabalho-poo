@@ -1,0 +1,35 @@
+/* Cria o estilo para a página de estoque */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 25px;
+}
+
+th,
+td {
+  padding: 0.5rem;
+  border: 1px solid black;
+  text-align: center;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #3f51b5;
+  color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #ddd;
+}

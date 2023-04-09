@@ -1,0 +1,8 @@
+/* Arquivo que importa todos os estilos da página */
+
+@import "global.css";
+@import "header.css";
+@import "footer.css";
+@import "produtos.css";
+@import "form.css";
+@import "estoque.css";

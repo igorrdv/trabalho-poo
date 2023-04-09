@@ -1,0 +1,30 @@
+/* Cria o estilo geral para todas as páginas */
+
+body {
+  margin: 0px;
+  font-family: monospace;
+  color: #000000;
+  font-size: 1rem;
+}
+
+h1,
+ul,
+p {
+  margin: 0px;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
